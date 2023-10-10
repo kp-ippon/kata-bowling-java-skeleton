@@ -1,13 +1,14 @@
-package tdd.kata;
+package tdd.kata.bowling;
 
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class LeapYearTest {
+class BowlingGameTest {
 
 	@Test
 	void should_be_true_if_installation_work() {
-		assertThat(true).isTrue();
+		Assertions.assertThat(new BowlingGame()).isNotNull();
 	}
 }

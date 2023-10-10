@@ -1,4 +1,4 @@
-package tdd.kata;
+package tdd.kata.leapyear;
 
 public class LeapYear {
 
